@@ -1,6 +1,7 @@
 # MCQ-Robustness
 
 <a href="https://huggingface.co/mainlp/MCQ-Classifier-MMLU-XYZ"><img alt="HuggingFace Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-8A2BE2"></a>
+[![arXiv](https://img.shields.io/badge/arXiv-2305.12182-b31b1b.svg)](https://arxiv.org/abs/2404.08382)
 
 Repo for paper 
 
