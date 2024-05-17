@@ -1,4 +1,7 @@
 # MCQ-Robustness
+
+<a href="https://huggingface.co/mainlp/MCQ-Classifier-MMLU-XYZ"><img alt="HuggingFace Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-8A2BE2"></a>
+
 Repo for paper 
 
 Look at the Text: Instruction-Tuned Language Models are More Robust Multiple Choice Selectors than You Think
