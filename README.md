@@ -29,8 +29,8 @@ model = PeftModel.from_pretrained(base_model, "mainlp/MCQ-Classifier-MMLU-XYZ")
 tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")
 to_classify = f"""<s>[INST] Classify the response.{inputs} [/INST]"""
 model_input = tokenizer(to_classify, return_tensors="pt")
-output =  merged_model.generate(**model_input, max_new_tokens=1, do_sample=False)
-print(tokenizer.decode(output.sequences[0], skip_special_tokens=True))
+output = model.generate(**model_input, max_new_tokens=1, do_sample=False)
+print(tokenizer.decode(output[0], skip_special_tokens=True))
 ```
 
 ## Cite
